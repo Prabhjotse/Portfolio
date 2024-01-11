@@ -11,8 +11,9 @@ const App = () => {
     <Rout />
     <Footer />
     </BrowserRouter>
+    /* Name  */
     </>
   )
 }
 
-export default App
+export default App;

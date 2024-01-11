@@ -53,7 +53,7 @@ const Home = () => {
                   <div className="img_box">
                     <img src="img/my-works.png" alt="work"></img>
                   </div>
-                  <Link to="/about" className="link">
+                  <Link to="/work" className="link">
                     <div className="deatail">
                       <div className="info">
                         <p>showcase</p>
