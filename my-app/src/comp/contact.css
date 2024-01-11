@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.contact{
+    padding: 20px 30px;
+    width: 100%;
+    background: #0f0f0f;
+    
+}
+.contact .container{
+    max-width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.contact .container .left_box{
+    padding: 20px 20px;
+    width: 30%;
+}
+.contact .container .left_box h3{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.contact .container .left_box .info{
+    margin-top: 20px;
+}
+
+.contact .container .left_box .info .box{
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+} 
+.contact .container .left_box .info .box .icon{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #363636,#141414);
+    color: #fff;
+    font-size: 22px;
+}
+.contact .container .left_box .info .box .detail{
+    margin-left: 20px;
+}
+
+.contact .container .left_box .info .box  .detail h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #9d9d9d;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.contact .container .left_box .info .box .detail p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.contact .container .right_box{
+    margin-left: 50px;
+    padding: 30px 30px;
+    background: linear-gradient(to right ,#363636,#141414);
+    border-radius: 20px;
+    width: 600px;
+}
+
+.contact .container .right_box img{
+    float: right;
+}
+.contact .container .right_box h2{
+    font-size: 42px;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+.contact .container .right_box h2 span{
+    color: #5a77f3;
+}
+.contact .container .right_box .form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .container .right_box .form input{
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+.contact .container .right_box .form textarea{
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #0f0f0f;
+    color: #fff;
+    resize: none;
+    height: 200px;
+}
+
+.contact .container .right_box .form button{
+    margin-top: 10px;
+    background: #0f0f0f;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact .container .right_box .form button:hover{
+color: #0f0f0f;
+background: #fff;
+}
